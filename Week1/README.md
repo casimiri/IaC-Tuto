@@ -13,14 +13,17 @@ Create an access token in AWS
 
 Create Environment variables for the HCP workspace
 
-`AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY`
+```
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+```
 
 run 
-`
+```
 terraform init
 terraform plan
-terraform apply` 
+terraform apply
+``` 
 
 ## NEXT
 - create subnets in the VPC
