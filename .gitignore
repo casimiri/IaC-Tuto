@@ -1,0 +1,47 @@
+# Local .terraform directories (providers, modules)
+**/.terraform/*
+
+# State files — contain secrets and belong in a remote backend
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files — often contain secrets
+*.tfvars
+*.tfvars.json
+# Uncomment to commit a non-sensitive example file:
+# !example.tfvars
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Saved plan files (may contain sensitive values)
+*.tfplan
+tfplan
+*.plan
+
+# CLI config and credentials
+.terraformrc
+terraform.rc
+credentials.tfrc.json
+
+# Environment / secrets
+.env
+.env.*
+
+# Editor and OS noise
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# NOTE: do NOT ignore .terraform.lock.hcl — commit it so provider versions stay pinned
