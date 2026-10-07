@@ -7,3 +7,6 @@ https://github.com/casimiri/iac/blob/main/install.md
 
 ### Login to HCP
 `export TF_TOKEN_app_terraform_io=$token`
+
+# NEXT
+- run terraform plan (get AWS credentials to HCP)
