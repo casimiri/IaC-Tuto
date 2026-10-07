@@ -6,7 +6,21 @@ https://github.com/casimiri/iac/blob/main/install.md
 ### Write the tf code
 
 ### Login to HCP
+Create an access token in AWS
 `export TF_TOKEN_app_terraform_io=$token`
 
-# NEXT
-- run terraform plan (get AWS credentials to HCP)
+# Terraform plan
+
+Create Environment variables for the HCP workspace
+
+`AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY`
+
+run 
+`
+terraform init
+terraform plan
+terraform apply` 
+
+## NEXT
+- create subnets in the VPC
