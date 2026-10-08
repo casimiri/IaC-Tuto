@@ -27,3 +27,4 @@ terraform apply
 
 ## NEXT
 - create subnets in the VPC
+- create network (IGW, route, Sec Grp)
